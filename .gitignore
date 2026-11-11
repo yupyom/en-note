@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+~$*.xlsx
+
+# 公開しないもの（元の Excel、音声の元データなど）
+_do_not_upload_/

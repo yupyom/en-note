@@ -1,0 +1,16 @@
+{
+  "name": "基本動詞のフレーズ帳",
+  "short_name": "フレーズ帳",
+  "description": "get・put・have など基本動詞の句動詞・定型表現を、会話とメールの例文で学ぶ単語帳。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ee",
+  "theme_color": "#1c7566",
+  "lang": "ja",
+  "icons": [
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/img/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
