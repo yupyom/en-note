@@ -129,12 +129,13 @@ def main():
                        "exprs": split_exprs(exprs), "tip": tip})
 
     compares = []
-    for no, a, b, a_mean, b_mean, ex, point in (r[:7] for r in rows(wb["使い分け"])):
-        ex_lines = ex.split("\n")
-        if len(ex_lines) != 2:
-            sys.exit(f"使い分け No.{no}: 例文は A / B の2行にしてください。")
+    for no, a, b, a_mean, b_mean, ex, ex_ja, point in (r[:8] for r in rows(wb["使い分け"])):
+        ex_lines, ja_lines = ex.split("\n"), (ex_ja or "").split("\n")
+        if len(ex_lines) != 2 or len(ja_lines) != 2:
+            sys.exit(f"使い分け No.{no}: 例文とその日本語訳は、それぞれ A / B の2行にしてください。")
         compares.append({"id": int(no), "a": a, "b": b, "aMean": a_mean, "bMean": b_mean,
-                         "aEx": ex_lines[0], "bEx": ex_lines[1], "point": point})
+                         "aEx": ex_lines[0], "bEx": ex_lines[1],
+                         "aExJa": ja_lines[0], "bExJa": ja_lines[1], "point": point})
 
     # 「使い方」シートの文型ルール（見出しの次の行から、シート一覧の手前まで）
     rules, in_rules = [], False

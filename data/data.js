@@ -3302,6 +3302,8 @@ window.PHRASEBOOK = {
    "bMean": "（人に）返事する",
    "aEx": "When will you get back?",
    "bEx": "I will get back to you tomorrow.",
+   "aExJa": "いつ戻りますか。",
+   "bExJa": "明日、お返事します。",
    "point": "「戻る」と「返信する」を区別。"
   },
   {
@@ -3312,6 +3314,8 @@ window.PHRASEBOOK = {
    "bMean": "身につけている状態",
    "aEx": "Put on a coat.",
    "bEx": "I have a coat on.",
+   "aExJa": "コートを着てください。",
+   "bExJa": "コートを着ています。",
    "point": "put on は着る瞬間、have on は着ている状態。"
   },
   {
@@ -3322,6 +3326,8 @@ window.PHRASEBOOK = {
    "bMean": "バス・電車など",
    "aEx": "Get in the taxi.",
    "bEx": "Get on the train.",
+   "aExJa": "タクシーに乗ってください。",
+   "bExJa": "電車に乗ってください。",
    "point": "乗り物の種類により使い分ける。"
   },
   {
@@ -3332,6 +3338,8 @@ window.PHRASEBOOK = {
    "bMean": "情報を調べる",
    "aEx": "I am looking for my keys.",
    "bEx": "I looked up the store hours.",
+   "aExJa": "鍵を探しています。",
+   "bExJa": "お店の営業時間を調べました。",
    "point": "look for = 物を探す、look up = データを検索。"
   },
   {
@@ -3342,6 +3350,8 @@ window.PHRASEBOOK = {
    "bMean": "ざっと確認する",
    "aEx": "Please look into the charge.",
    "bEx": "Please look over the estimate.",
+   "aExJa": "この請求について調べてください。",
+   "bExJa": "見積書に目を通してください。",
    "point": "問い合わせと書類の確認で重宝する。"
   },
   {
@@ -3352,6 +3362,8 @@ window.PHRASEBOOK = {
    "bMean": "順を追って確認する",
    "aEx": "Could we go over the instructions?",
    "bEx": "I went through all the documents.",
+   "aExJa": "説明を一緒に確認できますか。",
+   "bExJa": "書類にひと通り目を通しました。",
    "point": "近い意味だが、go through は一通り目を通す場合にも。"
   },
   {
@@ -3362,6 +3374,8 @@ window.PHRASEBOOK = {
    "bMean": "前倒し",
    "aEx": "Could we put off the appointment?",
    "bEx": "Could we bring forward the appointment?",
+   "aExJa": "予約を延期できますか。",
+   "bExJa": "予約を前倒しできますか。",
    "point": "bring forward は英国寄り。米語なら move up。"
   },
   {
@@ -3372,6 +3386,8 @@ window.PHRASEBOOK = {
    "bMean": "病気から回復する",
    "aEx": "I am coming down with a cold.",
    "bEx": "I am getting over a cold.",
+   "aExJa": "風邪をひきかけています。",
+   "bExJa": "風邪が治りかけています。",
    "point": "症状の経過の違い。"
   },
   {
@@ -3382,6 +3398,8 @@ window.PHRASEBOOK = {
    "bMean": "料理を持ち帰る・取り出す",
    "aEx": "I will pick up my prescription.",
    "bEx": "Can I take this meal out?",
+   "aExJa": "処方薬を受け取りに行きます。",
+   "bExJa": "この料理を持ち帰れますか。",
    "point": "pick up は受取、take out は持ち帰り注文など。"
   },
   {
@@ -3392,6 +3410,8 @@ window.PHRASEBOOK = {
    "bMean": "世話をする・仕事を処理する",
    "aEx": "Could you look after the cat?",
    "bEx": "I will take care of the payment.",
+   "aExJa": "猫の世話をお願いできますか。",
+   "bExJa": "支払いは私が済ませておきます。",
    "point": "take care of は仕事の処理にも便利。"
   },
   {
@@ -3402,6 +3422,8 @@ window.PHRASEBOOK = {
    "bMean": "元の場所・店へ返す",
    "aEx": "Can you bring back some milk?",
    "bEx": "I would like to take this back.",
+   "aExJa": "牛乳を買って帰ってもらえますか。",
+   "bExJa": "これを返品したいのですが。",
    "point": "bring / take の方向感覚に注目。"
   },
   {
@@ -3412,6 +3434,8 @@ window.PHRASEBOOK = {
    "bMean": "忘れずに確実にする",
    "aEx": "I have to call the clinic.",
    "bEx": "Make sure to bring your ID.",
+   "aExJa": "クリニックに電話しなければなりません。",
+   "bExJa": "身分証を忘れずに持ってきてください。",
    "point": "後者は注意・確認のニュアンスが中心。"
   },
   {
@@ -3422,6 +3446,8 @@ window.PHRASEBOOK = {
    "bMean": "不要物を処分する",
    "aEx": "We ran out of coffee.",
    "bEx": "We should get rid of this chair.",
+   "aExJa": "コーヒーを切らしてしまいました。",
+   "bExJa": "この椅子は処分したほうがいいですね。",
    "point": "「なくなる」と「なくす」の違い。"
   },
   {
@@ -3432,6 +3458,8 @@ window.PHRASEBOOK = {
    "bMean": "家に人を招く",
    "aEx": "Would you like to come over?",
    "bEx": "We are having friends over.",
+   "aExJa": "家に来ませんか。",
+   "bExJa": "友人を家に招く予定です。",
    "point": "訪問する側と招待する側の表現。"
   }
  ],

@@ -347,19 +347,22 @@
     </article>`;
 
   function compareCard(c) {
-    const side = (name, mean, ex, key) => `
+    const side = (name, mean, ex, ja, key) => `
       <div class="vs-side" data-line="${key}">
         <h3 lang="en">${esc(name)}</h3>
         <p class="meaning">${esc(mean)}</p>
-        <div class="vs-ex"><p class="en" lang="en">${mark(ex, splitNames(name))}</p>${spk(key)}</div>
+        <div class="vs-ex">
+          <div class="say"><p class="en" lang="en">${mark(ex, splitNames(name))}</p>${ja ? `<p class="ja">${esc(ja)}</p>` : ''}</div>
+          ${spk(key)}
+        </div>
       </div>`;
     const links = [...splitNames(c.a), ...splitNames(c.b)];
     return `
       <article class="card compare" id="c${c.id}">
         <div class="vs">
-          ${side(c.a, c.aMean, c.aEx, `c${c.id}.a`)}
+          ${side(c.a, c.aMean, c.aEx, c.aExJa, `c${c.id}.a`)}
           <span class="vs-mark" aria-hidden="true">vs</span>
-          ${side(c.b, c.bMean, c.bEx, `c${c.id}.b`)}
+          ${side(c.b, c.bMean, c.bEx, c.bExJa, `c${c.id}.b`)}
         </div>
         <p class="note"><span class="note-label">ポイント</span>${esc(c.point)}</p>
         <footer class="exprs"><span class="exprs-label">単語帳で見る</span>${exprChips(links)}</footer>
